@@ -1,0 +1,22 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": { 
+        "sqlserver-name": {
+            "type": "string",
+            "metadata": {
+            "description": "Azure SQL Server name. Must be globally unique."
+            }
+        },
+        "sqldatabase-name": {
+            "type": "string",
+            "metadata": {
+            "description": "Azure SQL database name."
+            }
+        },
+        "sqlAdministratorLogin": {
+            "type": "string",
+            "metadata": {
+            "description": "The admin user of the SQL Server"
+            }
+        }
